@@ -24,12 +24,17 @@ github_username: eledw
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-console
+#theme: jekyll-theme-console
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 header_pages:
-        - index.md
+  - index.md
+
+# To get around custom themes on github pages:
+remote_theme: b2a3e8/jekyll-theme-console
 
 footer: '<a href="https://github.com/eledw/blog">github</a>'
 
