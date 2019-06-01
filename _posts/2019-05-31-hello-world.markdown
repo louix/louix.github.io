@@ -29,4 +29,4 @@ Thanks,
 
 l
 
-[github-project]: https://github.com/eledw/blog
+[github-project]: https://github.com/eledw/eledw.github.io
