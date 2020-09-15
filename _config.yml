@@ -14,21 +14,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 'l| '
-email: your-email@example.com
+email: blog@otsuka.re
 description: >- # this means to ignore newlines until "baseurl:"
   Problem solving and intriguing assortments. Come adventure with me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
-github_username: eledw
+github_username: louix
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 #theme: jekyll-theme-console
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 header_pages:
   - index.md
@@ -36,7 +37,7 @@ header_pages:
 # To get around custom themes on github pages:
 remote_theme: b2a3e8/jekyll-theme-console
 
-footer: '<a href="https://github.com/eledw/eledw.github.io">github</a>'
+footer: '<a href="https://github.com/louix/louix.github.io">github</a>'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
